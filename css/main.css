@@ -16,7 +16,12 @@ box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
 
 body
 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
     transition: all 1s;
 }
 ul, li {
@@ -405,8 +410,6 @@ padding: 20px 15px
 .allCardContent
 {
 margin-bottom: 20px ; 
-box-shadow: 2px 3px 8px #333;
-margin-right: 15px;
 }
 
 /*****Services Sction*******/
@@ -462,6 +465,11 @@ padding: 3px 7px
 .inp
 {
 padding: 26px 40px; 
+}
+.heading
+{
+    font-size: 20px;
+    margin-bottom: 16px;
 }
 /*****Footer*******/
 footer
